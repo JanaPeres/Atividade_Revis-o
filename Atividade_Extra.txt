@@ -1,0 +1,12 @@
+1- Crie uma pagina html que possua um campo (input) e um botão (button).
+Quando o botão for clicado deve ser mostrado o conteudo do input em um alerta do javascript.
+
+2- Crie uma pagina html que possua 5 botões. Cada botão deve estar associado a uma cor. Quando um botão for clicado o 'background-color' do body deve se tornar a cor do botão.
+
+3- Crie uma pagina html que possua um campo (input) e um botão (button). O campo deve receber uma senha e quando o botão for clicado se a senha estiver errada deve mostrar a msg "Senha incorreta", caso esteja correta deve levar o usuario para outra pagina html.
+
+4- Atividade extra = Crie um programa de html e javascript que crie uma lista de tarefas.
+- Deve ser possivel adicionar tarefa na lista.
+- Cada tarefa pode ser marcada como concluida.
+- Deve ser possivel remover as tarefas.
+

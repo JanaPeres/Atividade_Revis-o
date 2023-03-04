@@ -1,0 +1,29 @@
+
+<html>
+    <head>
+        <title>Meu primeiro documento com JQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            
+            $(function(){
+                
+                $('#meclique').on('click',function() {
+                  
+                  let nome = $('#campo').val(); 
+
+                  alert('Tudo bem ' + nome); 
+                });
+
+            })
+        </script>
+    </head>
+    <body>
+
+        <label>Digite seu nome:</label>
+        <input type="text" id="campo">
+
+        <button id="meclique">Mostrar Alerta</button>
+        </br>
+
+    </body>
+</html>

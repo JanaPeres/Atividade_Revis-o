@@ -1,0 +1,31 @@
+
+<html>
+    <head>
+        <title>Meu primeiro documento com JQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            
+            $(function(){
+                $('#meclique').on('click',function() {
+                  let senha = $('#senha').val()
+                  if (senha != '1234'){
+                    alert("Senha Incorreta!");
+            }else{
+                window.location.href = './botoes_cores.html'
+            }
+            })
+        });
+            
+        </script>
+    </head>
+    <body>
+        <div>
+            <label for="senha">Digite a senha</label>
+        </div>
+            <input type="text" id="senha">
+        <div>
+            <button id="meclique" type="submit">Confirmar</button>
+        </div>
+        
+    </body>
+</html>

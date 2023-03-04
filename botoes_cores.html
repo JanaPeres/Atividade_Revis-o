@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>Meu primeiro documento com JQuery</title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script>
+           
+            $(function(){
+                $('#red').on('click', function(){
+                    $('body').css('background-color', 'red')
+                })
+                
+                $('#yellow').on('click', function(){
+                    $('body').css('background-color', 'yellow')  
+                })
+
+                $('#green').on('click', function(){
+                    $('body').css('background-color', 'green')  
+                })
+
+                $('#blue').on('click', function(){
+                    $('body').css('background-color', 'blue')  
+                })
+
+                $('#pink').on('click', function(){
+                    $('body').css('background-color', 'pink')  
+                })
+            })
+        </script>
+    </head>
+    <body>
+
+        <button id="red">Vermelho</button>
+        <button id="yellow">Amarelo</button>
+        <button id="green">Verde</button>
+        <button id="blue">Azul</button>
+        <button id="pink">Pink</button>
+    </body>
+</html>
